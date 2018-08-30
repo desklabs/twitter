@@ -1,6 +1,7 @@
 require 'twitter/creatable'
 require 'twitter/entities'
 require 'twitter/identity'
+require 'ruby_dig'
 
 module Twitter
   class DirectMessageEvent < Twitter::Identity

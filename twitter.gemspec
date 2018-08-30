@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'memoizable', '~> 0.4.0'
   spec.add_dependency 'multipart-post', '~> 2.0'
   spec.add_dependency 'naught', '~> 1.0'
+  spec.add_dependency 'ruby_dig', '~> 0.0.2'
   spec.add_dependency 'simple_oauth', '~> 0.3.0'
   spec.add_development_dependency 'bundler', '~> 1.0'
   spec.authors = ['Erik Michaels-Ober', 'John Nunemaker', 'Wynn Netherland', 'Steve Richert', 'Steve Agalloco']
@@ -22,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.licenses = %w[MIT]
   spec.name = 'twitter'
   spec.require_paths = %w[lib]
-  spec.required_ruby_version = '>= 2.3'
+  spec.required_ruby_version = '>= 2.1'
   spec.summary = spec.description
   spec.version = Twitter::Version
 end
